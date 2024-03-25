@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exemplo OO com JavaScript</title>
+</head>
+<body>
+    <nav>
+        <ul id="livros">
+            <li>
+                LIVRO
+            </li>
+
+            <div id="livro">
+                <li id="CadastraC">
+                    Cadastra
+                </li>
+                <li id="BiblioC">
+                    Bibliografia
+                </li>
+                <li id="TomboC">
+                    Tombo
+                </li>
+            </div>
+        </ul>
+
+        <ul id="revistas">
+            <li>
+                REVISTA
+            </li>
+            <div id="revista">
+                <li id="CadastraM">
+                    Cadastra
+                </li>
+                <li id="BiblioM">
+                    Bibliografia
+                </li>
+                <li id="TomboM">
+                    Tombo
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <main>
+        <fieldset id="cadastro">
+        <legend>Cadastro</legend>
+        <div>
+            <label for="iTombo">Tombo:</label>
+            <input type="text" id="iTombo"> <br>
+
+            <label for="iEditora">Editora:</label>
+            <input type="text" id="iEditora"> <br>
+
+            <label for="iAno">Ano:</label>
+            <input type="text" size="4" id="iAno"><br>
+
+            <button id="cadastrar">Cadastrar</button>
+        </div>
+        </fieldset>
+
+        <fieldset id="cadLivros">
+        <legend>Livros</legend>
+        <div>
+            <label for="autor">Autor: </label>
+            <input type="text" size=55 id="autor"><br>
+
+            <label for="titulo">Título: </label>
+            <input type="text" id="titulo" size="80">
+
+            <label for="volume">Volume: </label>
+            <input type="number" id="volume" size="2"><br>
+
+            <button id="concluirD">Concluir</button>
+        </div>
+        </fieldset>
+
+        <fieldset id="cadRevistas">
+        <legend>Revistas</legend>
+        <div>
+            <label for="nome">Nome: </label>
+            <input type="text" size=55 id="nome"><br>
+
+            <label for="fasciculo">Fascículo: </label>
+            <input type="number" id="fasciculo" size="4"><br>
+
+            <button id="concluirS">Concluir</button>
+        </div>
+        </fieldset>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="oo.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="T1.xsl"?>
+<familia>
+    <tios>
+        <nome>Fabio Renato</nome>
+        <idade>45</idade>
+        <profissao>Caminhoneiro</profissao>
+        <sexo>Masculino</sexo>
+    </tios>
+    <tios>
+        <nome>Maria de Fatima</nome>
+        <idade>54</idade>
+        <profissao>Do lar</profissao>
+        <sexo>Feminino</sexo>
+    </tios>
+    <tios>
+        <nome>Vandeir</nome>
+        <idade>44</idade>
+        <profissao>Caçador</profissao>
+        <sexo>Masculino</sexo>
+    </tios>
+    <tios>
+        <nome>José</nome>
+        <idade>42</idade>
+        <profissao>Caminhoneiro</profissao>
+        <sexo>Masculino</sexo>
+    </tios>
+    <tios>
+        <nome>Rosana</nome>
+        <idade>49</idade>
+        <profissao>Do lar</profissao>
+        <sexo>Feminino</sexo>
+    </tios>
+    <tios>
+        <nome>Beto</nome>
+        <idade>48</idade>
+        <profissao>Mecânico</profissao>
+        <sexo>Masculino</sexo>
+    </tios>
+    <tios>
+        <nome>Antonio</nome>
+        <idade>48</idade>
+        <profissao>Professor</profissao>
+        <sexo>Masculino</sexo>
+    </tios>
+    <tios>
+        <nome>Zé Maria</nome>
+        <idade>49</idade>
+        <profissao>Carpinteiro</profissao>
+        <sexo>Masculino</sexo>
+    </tios>
+</familia>
